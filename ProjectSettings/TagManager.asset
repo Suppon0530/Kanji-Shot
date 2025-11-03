@@ -2,8 +2,28 @@
 %TAG !u! tag:unity3d.com,2011:
 --- !u!78 &1
 TagManager:
-  serializedVersion: 2
-  tags: []
+  serializedVersion: 3
+  tags:
+  - enemy_0
+  - enemy_1
+  - enemy_2
+  - enemy_3
+  - enemy_4
+  - enemy_5
+  - enemy_6
+  - enemy_7
+  - enemy_8
+  - enemy_9
+  - enemy_10
+  - enemy_11
+  - enemy_12
+  - enemy_13
+  - enemy_14
+  - enemy_15
+  - enemy_16
+  - enemy_17
+  - enemy_18
+  - enemy_19
   layers:
   - Default
   - TransparentFX
@@ -41,3 +61,17 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: BackGround
+    uniqueID: 538840775
+    locked: 0
+  - name: Object
+    uniqueID: 2030341557
+    locked: 0
+  - name: UI
+    uniqueID: 2326081695
+    locked: 0
+  - name: Fade
+    uniqueID: 2768317717
+    locked: 0
+  m_RenderingLayers:
+  - Default
