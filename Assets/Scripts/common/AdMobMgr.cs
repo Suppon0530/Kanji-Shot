@@ -1,15 +1,13 @@
 using UnityEngine;
 using GoogleMobileAds.Api;
-using UnityEngine.SceneManagement;
 
 // AdMobを管理するクラス
 public class AdMobMgr : MonoBehaviour
 {
     private BannerView bannerView;
-    private static bool Dontdestroy = false;    // 静的変数
+    private GameObject bannerObj;
+    private static bool Dontdestroy = false;
 
-
-    // Start()よりも前に実行する関数
     void Awake()
     {
         if(!Dontdestroy) {
@@ -22,14 +20,7 @@ public class AdMobMgr : MonoBehaviour
         }
 
         // Google AdMob Initial
-        MobileAds.Initialize(initStatus => { });
-
-        SceneManager.sceneLoaded += OnSceneLoaded;
-    }
-
-    void OnSceneLoaded(Scene scene, LoadSceneMode mode)
-    {
-        RequestBanner();
+        MobileAds.Initialize(initStatus => { RequestBanner();});
     }
 
     // バナーのリクエスト関数
@@ -57,15 +48,14 @@ public class AdMobMgr : MonoBehaviour
     // バナーのロード関数
     private void LoadBanner()
     {
-        if (bannerView == null)
-        {
-            RequestBanner();
-        }
+        if (bannerView == null) RequestBanner();
 
         // Create an empty ad request.
         AdRequest request = new AdRequest();
 
         // Load the banner with the request.
         bannerView.LoadAd(request);
+
+        if(bannerObj = GameObject.Find("BANNER(Clone)")) DontDestroyOnLoad(bannerObj);
     }
 }
