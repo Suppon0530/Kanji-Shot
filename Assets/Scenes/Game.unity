@@ -154,7 +154,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100, y: 100}
+  m_SizeDelta: {x: 460, y: 818}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &496086329
 MonoBehaviour:
@@ -169,7 +169,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_Color: {r: 0, g: 0, b: 0, a: 0}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -260,7 +260,7 @@ GameObject:
   - component: {fileID: 627292373}
   - component: {fileID: 627292376}
   m_Layer: 5
-  m_Name: Button_Retitle
+  m_Name: Btn_Retitle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1048,10 +1048,10 @@ Camera:
   m_LensShift: {x: 0, y: 0}
   m_NormalizedViewPortRect:
     serializedVersion: 2
-    x: 0
-    y: 0.00021961331
-    width: 1
-    height: 0.9995608
+    x: 0.0002990663
+    y: 0
+    width: 0.99940187
+    height: 1
   near clip plane: 0.3
   far clip plane: 1000
   field of view: 60
@@ -1952,7 +1952,7 @@ Canvas:
   m_VertexColorAlwaysGammaSpace: 0
   m_AdditionalShaderChannelsFlag: 0
   m_UpdateRectTransformForStandalone: 0
-  m_SortingLayerID: 0
+  m_SortingLayerID: -1526649579
   m_SortingOrder: 0
   m_TargetDisplay: 0
 --- !u!224 &1742260880
@@ -2192,7 +2192,7 @@ GameObject:
   - component: {fileID: 2055037888}
   - component: {fileID: 2055037891}
   m_Layer: 5
-  m_Name: Button_Retry
+  m_Name: Btn_Retry
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

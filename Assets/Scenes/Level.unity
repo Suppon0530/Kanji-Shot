@@ -208,7 +208,7 @@ GameObject:
   - component: {fileID: 127402839}
   - component: {fileID: 127402842}
   m_Layer: 5
-  m_Name: Button_Return
+  m_Name: Btn_Return
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -561,7 +561,7 @@ GameObject:
   - component: {fileID: 1331749518}
   - component: {fileID: 1331749517}
   m_Layer: 5
-  m_Name: Button_Level_Normal
+  m_Name: Btn_Level_Normal
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -707,7 +707,7 @@ GameObject:
   - component: {fileID: 1362160937}
   - component: {fileID: 1362160940}
   m_Layer: 5
-  m_Name: Button_Level_Easy
+  m_Name: Btn_Level_Easy
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -853,7 +853,7 @@ GameObject:
   - component: {fileID: 1847863983}
   - component: {fileID: 1847863982}
   m_Layer: 5
-  m_Name: Button_Level_Hard
+  m_Name: Btn_Level_Hard
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1106,7 +1106,7 @@ GameObject:
   - component: {fileID: 1899465044}
   - component: {fileID: 1899465043}
   m_Layer: 5
-  m_Name: Button_Level_VeryHard
+  m_Name: Btn_Level_VeryHard
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1293,10 +1293,10 @@ Camera:
   m_LensShift: {x: 0, y: 0}
   m_NormalizedViewPortRect:
     serializedVersion: 2
-    x: 0
-    y: 0.00021961331
-    width: 1
-    height: 0.9995608
+    x: 0.0002990663
+    y: 0
+    width: 0.99940187
+    height: 1
   near clip plane: 0.3
   far clip plane: 1000
   field of view: 60

@@ -131,7 +131,7 @@ GameObject:
   - component: {fileID: 175767922}
   - component: {fileID: 175767921}
   m_Layer: 5
-  m_Name: Howto_BackGround
+  m_Name: Howto
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -285,7 +285,7 @@ GameObject:
   - component: {fileID: 209081831}
   - component: {fileID: 209081830}
   m_Layer: 5
-  m_Name: Button_Howto
+  m_Name: Btn_Howto
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -649,7 +649,7 @@ GameObject:
   - component: {fileID: 284531009}
   - component: {fileID: 284531008}
   m_Layer: 5
-  m_Name: Button_Return
+  m_Name: Btn_Return
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -945,10 +945,10 @@ Camera:
   m_LensShift: {x: 0, y: 0}
   m_NormalizedViewPortRect:
     serializedVersion: 2
-    x: 0
-    y: 0.00021961331
-    width: 1
-    height: 0.9995608
+    x: 0.0002990663
+    y: 0
+    width: 0.99940187
+    height: 1
   near clip plane: 0.3
   far clip plane: 1000
   field of view: 60
@@ -1055,7 +1055,7 @@ GameObject:
   - component: {fileID: 343866562}
   - component: {fileID: 343866561}
   m_Layer: 5
-  m_Name: Button_Option
+  m_Name: Btn_Option
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1202,7 +1202,7 @@ GameObject:
   - component: {fileID: 406671083}
   - component: {fileID: 406671086}
   m_Layer: 5
-  m_Name: Button_Return
+  m_Name: Btn_Return
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1422,7 +1422,7 @@ GameObject:
   - component: {fileID: 560506732}
   - component: {fileID: 560506731}
   m_Layer: 5
-  m_Name: Option_BackGround
+  m_Name: Option
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1629,7 +1629,7 @@ GameObject:
   - component: {fileID: 701967453}
   - component: {fileID: 701967452}
   m_Layer: 5
-  m_Name: Details
+  m_Name: Bg_Option
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1750,7 +1750,7 @@ GameObject:
   - component: {fileID: 794891243}
   - component: {fileID: 794891242}
   m_Layer: 5
-  m_Name: Button_Right
+  m_Name: Btn_Right
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1896,7 +1896,7 @@ GameObject:
   - component: {fileID: 1185033589}
   - component: {fileID: 1185033588}
   m_Layer: 5
-  m_Name: Details
+  m_Name: Bg_Howto
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2096,7 +2096,7 @@ GameObject:
   - component: {fileID: 1599422670}
   - component: {fileID: 1599422673}
   m_Layer: 5
-  m_Name: Button_Start
+  m_Name: Btn_Start
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2362,7 +2362,7 @@ GameObject:
   - component: {fileID: 2053109073}
   - component: {fileID: 2053109076}
   m_Layer: 5
-  m_Name: Button_Left
+  m_Name: Btn_Left
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

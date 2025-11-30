@@ -27,11 +27,11 @@ public class AdMobMgr : MonoBehaviour
     private void RequestBanner()
     {
         #if UNITY_ANDROID
-            string adUnitId = "ca-app-pub-3940256099942544/6300978111"; // テスト用広告ユニットID
-            // string adUnitId = "ca-app-pub-3771226114317990/8467659403";    // 本番用広告ユニットID
+            // string adUnitId = "ca-app-pub-3940256099942544/6300978111"; // テスト用広告ユニットID
+            string adUnitId = "ca-app-pub-3771226114317990/8467659403";    // 本番用広告ユニットID
         #elif UNITY_IPHONE
-            string adUnitId = "ca-app-pub-3940256099942544/2934735716"; // テスト用広告ユニットID
-            // string adUnitId = "ca-app-pub-3771226114317990/8628432151";    // 本番用広告ユニットID
+            // string adUnitId = "ca-app-pub-3940256099942544/2934735716"; // テスト用広告ユニットID
+            string adUnitId = "ca-app-pub-3771226114317990/8628432151";    // 本番用広告ユニットID
         #else
             string adUnitId = "unexpected_platform";
         #endif
